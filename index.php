@@ -65,16 +65,13 @@
         <div class="spacer spacer-section flip offset-top"></div>
 
         <div class="column-fixed">
-            <h2 class="chapter">O nama</h2>
+            <h2 class="chapter"><?php _e('O nama', 'belikenow-custom-theme') ?> </h2>
 
             <div class="frame-content">
 
                 <h2>Be<span></span>Like<span></span>Now</h2>
                 <p>
-                    Nekadazastupljen u plemenskim narodima radi ukazivanja statusa ili
-                    religijske simbolike, danas je pirsing izuzetno popularna vrsta
-                    bodi arta među mladima i starima ne samo na Zapadu već i širom
-                    sveta.
+                    <?php _e('Nekad zastupljen u plemenskim narodima radi ukazivanja statusa ili religijske simbolike, danas je pirsing izuzetno popularna vrsta bodi arta među mladima i starima ne samo na Zapadu već i širom sveta.', 'belikenow-custom-theme'); ?>
                 </p>
             </div>
         </div>
@@ -84,16 +81,14 @@
 
 
                 <div class="column ">
-                    <h2 class="chapter">Usluge</h2>
+                    <h2 class="chapter"><?php _e('Usluge', 'belikenow-custom-theme') ?></h2>
                     <div class="row">
                         <img src="<?php echo esc_url(get_template_directory_uri() . '/img/services-1.webp'); ?>" alt="" />
                         <div class="column-content">
 
-                            <p>studio za pirsing nudi Vam najkvalitetnije usluge pirsinga.</p>
+                            <?php _e('Studio za pirsing nudi Vam najkvalitetnije usluge pirsinga.', 'belikenow-custom-theme'); ?>
                             <p>
-                                Pored samih usluga, takođe nudimo i raznovrsnu paletu nakita za
-                                pirsing, isključivo izrađenog od najkvalitetnijeg hirurškog čelika
-                                i titanijuma.
+                                <?php _e('Pored samih usluga, takođe nudimo i raznovrsnu paletu nakita za pirsing, isključivo izrađenog od najkvalitetnijeg hirurškog čelika i titanijuma.', 'belikenow-custom-theme'); ?>
                             </p>
                         </div>
                     </div>
@@ -103,14 +98,10 @@
                         <img src="<?php echo esc_url(get_template_directory_uri() . '/img/services-2.webp'); ?>" alt="" />
                         <div class="column-content">
                             <p>
-                                Iskažite svoju individualnost i obeležite nešto Vama važno uz najkvalitetnije pirsinge na raznim delovima tela: usnama, bradavicama, obrvama, pupku, ušima, jeziku itd. Radimo isključivo uz najviše higijenske standarde, pa samim tim i koristimo opremu za jednokratnu upotrebu koju otvaramo pred vašim očima.
+                                <?php _e('Iskažite svoju individualnost i obeležite nešto Vama važno uz najkvalitetnije pirsinge na raznim delovima tela...', 'belikenow-custom-theme'); ?>
                             </p>
                             <p>
-                                Uz uslugu pirsinga takođe možete odabrati i komad nakita po Vašoj želji, izrađenog od najkvalitetnijeg hirurškog čelika.
-
-                                Imamo i odličan izbor drugog nakita poput narukvica, prstenja, minđuša, privezaka, ogrlica od hirurškog čelika ili srebra.
-
-                                Tu je i idealan poklon – atraktivne kožne narukvice.</p>
+                                <?php _e('Uz uslugu pirsinga takođe možete odabrati i komad nakita po Vašoj želji, izrađenog od najkvalitetnijeg hirurškog čelika...', 'belikenow-custom-theme'); ?></p>
                         </div>
                     </div>
                 </div>
@@ -121,7 +112,7 @@
             <div class="bgfilter">
                 <div class="spacer spacer-section"></div>
                 <div class="gallery-wrapper">
-                    <h2 class="chapter">Galerija</h2>
+                    <h2 class="chapter"><?php _e('Galerija', 'belikenow-custom-theme') ?></h2>
                     <div class="gallery-content">
 
 
@@ -190,7 +181,7 @@
 
         <section id="contact">
             <div class="contact-content">
-                <h2 class="chapter">Kontakt</h2>
+                <h2 class="chapter"><?php _e('Kontakt', 'belikenow-custom-theme') ?></h2>
                 <div class="wrapper">
                     <div name="map" class="map">
                         <iframe
