@@ -1,0 +1,66 @@
+# Copyright (C) 2024 LoganDuran
+# This file is distributed under the same license as the BeLikeNow Custome Theme theme.
+msgid ""
+msgstr ""
+"Project-Id-Version: BeLikeNow Custome Theme 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/belikenow-custom-theme\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-27T18:34:47+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: belikenow-custom-theme\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "BeLikeNow Custome Theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A one-page website I coded from scratch for a local piercing and tattoo studio."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "LoganDuran"
+msgstr ""
+
+#: index.php:68
+msgid "O nama"
+msgstr ""
+
+#: index.php:74
+msgid "Nekad zastupljen u plemenskim narodima radi ukazivanja statusa ili religijske simbolike, danas je pirsing izuzetno popularna vrsta bodi arta među mladima i starima ne samo na Zapadu već i širom sveta."
+msgstr ""
+
+#: index.php:84
+msgid "Usluge"
+msgstr ""
+
+#: index.php:89
+msgid "Studio za pirsing nudi Vam najkvalitetnije usluge pirsinga."
+msgstr ""
+
+#: index.php:91
+msgid "Pored samih usluga, takođe nudimo i raznovrsnu paletu nakita za pirsing, isključivo izrađenog od najkvalitetnijeg hirurškog čelika i titanijuma."
+msgstr ""
+
+#: index.php:101
+msgid "Iskažite svoju individualnost i obeležite nešto Vama važno uz najkvalitetnije pirsinge na raznim delovima tela..."
+msgstr ""
+
+#: index.php:104
+msgid "Uz uslugu pirsinga takođe možete odabrati i komad nakita po Vašoj želji, izrađenog od najkvalitetnijeg hirurškog čelika..."
+msgstr ""
+
+#: index.php:115
+msgid "Galerija"
+msgstr ""
+
+#: index.php:184
+msgid "Kontakt"
+msgstr ""
