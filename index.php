@@ -85,8 +85,9 @@
                     <div class="row">
                         <img src="<?php echo esc_url(get_template_directory_uri() . '/img/services-1.webp'); ?>" alt="" />
                         <div class="column-content">
-
-                            <?php _e('Studio za pirsing nudi Vam najkvalitetnije usluge pirsinga.', 'belikenow-custom-theme'); ?>
+                            <p>
+                                <?php _e('Studio za pirsing nudi Vam najkvalitetnije usluge pirsinga.', 'belikenow-custom-theme'); ?>
+                            </p>
                             <p>
                                 <?php _e('Pored samih usluga, takođe nudimo i raznovrsnu paletu nakita za pirsing, isključivo izrađenog od najkvalitetnijeg hirurškog čelika i titanijuma.', 'belikenow-custom-theme'); ?>
                             </p>
