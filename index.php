@@ -47,7 +47,7 @@
                     <a draggable="false" class="navlinks" href="#contact">Kontakt</a>
                 </li>
                 <li>
-                    <a draggable="false" class="navlinks" href="en.html">En</a>
+                    <a draggable="false" class="navlinks" href="en.html"><?php belikenow_language_switcher(); ?></a>
                 </li>
             </ul>
         </nav>

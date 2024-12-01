@@ -20,3 +20,35 @@ function belikenow_load_theme_textdomain()
     load_theme_textdomain('belikenow-custom-theme', get_template_directory() . '/languages');
 }
 add_action('after_setup_theme', 'belikenow_load_theme_textdomain');
+
+
+
+//  Language Switcher
+function belikenow_language_switcher()
+{
+    $languages = [
+        'en_US' => __('English', 'belikenow-custom-theme'),
+        'sr_RS' => __('Srpski', 'belikenow-custom-theme'),
+    ];
+
+    $current_locale = determine_locale(); // Gets the current locale.
+
+    echo '<form method="GET">';
+    echo '<select name="lang" onchange="this.form.submit();">';
+    foreach ($languages as $locale => $label) {
+        $selected = $locale === $current_locale ? 'selected' : '';
+        echo '<option value="' . esc_attr($locale) . '" ' . esc_attr($selected) . '>';
+        echo esc_html($label);
+        echo '</option>';
+    }
+    echo '</select>';
+    echo '</form>';
+}
+
+function belikenow_set_locale()
+{
+    if (isset($_GET['lang'])) {
+        switch_to_locale(sanitize_text_field($_GET['lang']));
+    }
+}
+add_action('init', 'belikenow_set_locale');
